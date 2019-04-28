@@ -83,8 +83,7 @@
 
     <!-- Google frameworks -->
     <!-- Downloaded here: https://developers.google.com/identity/sign-in/ios/sdk/ (changelog: https://developers.google.com/identity/sign-in/ios/release) -->
-    <framework src="src/ios/libs/GoogleSignIn.framework" custom="true" />
-    <resource-file src="src/ios/libs/GoogleSignIn.bundle"/>
+    <framework src="GoogleSignIn" type="podspec" spec="~> 4.4.0"/>
     <!-- System frameworks -->
     <framework src="LocalAuthentication.framework" weak="true" />
     <framework src="AddressBook.framework" weak="true" />
