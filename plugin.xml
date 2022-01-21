@@ -83,7 +83,7 @@
 
     <!-- Google frameworks -->
     <!-- Downloaded here: https://developers.google.com/identity/sign-in/ios/sdk/ (changelog: https://developers.google.com/identity/sign-in/ios/release) -->
-    <framework src="GoogleSignIn" type="podspec" spec="~> 4.4.0"/>
+    <framework src="GoogleSignIn" type="podspec" spec="~> 5.0.2"/>
     <config-file parent="keychain-access-groups" target="*/Entitlements-Debug.plist">
       <array>
         <string>$(AppIdentifierPrefix)$(PRODUCT_BUNDLE_IDENTIFIER)</string>
